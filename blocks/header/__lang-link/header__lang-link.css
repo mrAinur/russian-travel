@@ -1,0 +1,9 @@
+.header__lang-link {
+  display: flex;
+  margin: 0;
+  /*
+  grid-template-columns: 30px 30px;
+  grid-template-rows: 28px;
+  gap: 18px;
+  */
+}
