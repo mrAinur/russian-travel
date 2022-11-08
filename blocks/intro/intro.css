@@ -1,0 +1,7 @@
+.intro{
+    display: flex;
+    max-width: 690px;
+    flex-direction: column;
+    padding-top: 86px;
+    padding-left: 148px;
+}

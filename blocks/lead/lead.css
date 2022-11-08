@@ -1,0 +1,8 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    padding-top: 62px;
+    margin: 0 auto;
+    max-width: 984px;
+    max-height: 1005px;
+}

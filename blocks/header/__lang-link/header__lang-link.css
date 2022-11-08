@@ -1,9 +1,21 @@
 .header__lang-link {
   display: flex;
-  margin: 0;
+  margin: 0 18px 0 0;
+  min-width: 30px;
+  font-family: "Inter";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #ffffff;
   /*
   grid-template-columns: 30px 30px;
   grid-template-rows: 28px;
   gap: 18px;
   */
+}
+.header__lang-link:last-of-type{
+  margin-right: 0;
 }
