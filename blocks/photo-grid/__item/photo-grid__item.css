@@ -1,4 +1,10 @@
 .photo-grid__item {
-    display: flex;
-    align-items: center;
-}
+    max-width: 100%;
+    object-fit: contain;
+  }
+  @media screen and (max-width: 1279px) {
+    .photo-grid__item {
+      max-width: 300px;
+      max-height: 225px;
+    }
+  }
