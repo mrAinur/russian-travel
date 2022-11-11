@@ -9,10 +9,21 @@
   padding-right: 18px;
   text-decoration: none;
 }
-.footer__link:last-of-type{
-    padding-right: 0;
+.footer__link:last-of-type {
+  padding-right: 0;
 }
-.footer__link:hover{
+.footer__link:hover {
   transition: 0.3s;
   opacity: 0.7;
+}
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding-right: 0;
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .footer__link:last-of-type{
+    padding-bottom: 0;
+  }
 }

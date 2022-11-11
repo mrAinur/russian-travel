@@ -1,23 +1,57 @@
 # Проект: Путешествие по России
-
-### Обзор
-* Интро
-* Figma
-* Картинки
-
-**Интро**
-
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+В данном проекте вы увидите многие интересные места России.
+## Также вы познакомитесь с возможностью добраться до Байкала "На собаках"
+Это один интересный метод путешествовать, в котором вы наверняка встретите множество приключений и новых знакомых.
+## Узнаете самые интересные места нашей Родины
+:white_check_mark: Куршская коса;
+:white_check_mark: Кольский;
+:white_check_mark: Алтай;
+:white_check_mark: Зимний Байкал;
+:white_check_mark: Карелия.
+## Проект сделан при помощи технологий адаптивной вёрстки и флексбокс инструментов
+:white_check_mark: Примеры технологий адаптивной вёрстки:
+```CSS
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 928px;
+    max-height: 942px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    max-width: 720px;
+    max-height: 1664px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    max-width: 288px;
+    max-height: 2724px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+    margin: 64px auto 0 auto;
+  }
+}
+```
+:white_check_mark: Примеры применения грид - элементов:
+```CSS
+.place {
+  display: grid;
+  grid-template-columns: repeat(fit-content, (2, 1fr));
+  grid-template-rows: repeat(fit-content, (2, 1fr));
+  grid-template-areas:
+    "title link"
+    "img paragraph";
+  gap: 48px 40px;
+  padding-bottom: 80px;
+}
+```
+## Данный сайт поможет вам больше узнать как и России, так и о технологии адаптивной вёрстки
+Путешествуйте и наслаждайтесь жизнью!
