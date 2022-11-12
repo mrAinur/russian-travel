@@ -6,18 +6,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
   text-align: center;
   color: #ffffff;
   position: relative;
   z-index: 2;
 }
+
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     max-width: 288px;
-    max-height: 48px;
+    min-height: 48px;
     padding-top: 16px;
     font-size: 14px;
-    line-height: 16px;
   }
 }

@@ -1,23 +1,26 @@
-.places{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 92px auto 0 auto;
-    max-width: 984px;
+.places {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 92px auto 0 auto;
+  max-width: 984px;
 }
+
 @media screen and (max-width: 1279px) {
-    .places {
-        max-width: 928px;
-    }
-} 
+  .places {
+    max-width: 928px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
-    .places {
-        max-width: 720px;
-    }
-} 
+  .places {
+    max-width: 720px;
+  }
+}
+
 @media screen and (max-width: 767px) {
-    .places {
-        max-width: 320px;
-        margin: 64px auto 0 auto;
-    }
+  .places {
+    max-width: 320px;
+    margin: 64px auto 0 auto;
+  }
 }
