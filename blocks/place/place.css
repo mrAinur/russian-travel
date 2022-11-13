@@ -19,14 +19,14 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .place {
     gap: 48px 28px;
     padding-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 784px) {
   .place {
     grid-template-columns: repeat(fit-content, (1, 1fr));
     grid-template-rows: repeat(fit-content, (4, 1fr));

@@ -20,7 +20,7 @@
     gap: 14px;
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .photo-grid {
     max-width: 720px;
     min-height: 1664px;
@@ -29,7 +29,7 @@
     gap: 16px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 784px) {
   .photo-grid {
     max-width: 288px;
     min-height: 2724px;
@@ -55,3 +55,5 @@
 ```
 ## Данный сайт поможет вам больше узнать как и России, так и о технологии адаптивной вёрстки
 Путешествуйте и наслаждайтесь жизнью!
+### Ссылка на сайт (gh-pages)
+ https://mrainur.github.io/russian-travel/

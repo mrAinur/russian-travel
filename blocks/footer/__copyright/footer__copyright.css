@@ -8,10 +8,9 @@
   text-align: right;
   color: #ffffff;
   min-width: 186px;
-  min-height: 16px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 784px) {
   .footer__copyright {
     padding-top: 48px;
     line-height: 14px;

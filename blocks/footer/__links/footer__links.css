@@ -3,9 +3,8 @@
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 784px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
   }
 }

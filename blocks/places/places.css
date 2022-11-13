@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 92px auto 0 auto;
+  margin: 92px auto 92px auto;
   max-width: 984px;
 }
 
@@ -12,15 +12,16 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .places {
     max-width: 720px;
+    margin-bottom: 90px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 784px) {
   .places {
     max-width: 320px;
-    margin: 64px auto 0 auto;
+    margin: 64px auto 66px auto;
   }
 }
