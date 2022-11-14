@@ -1,7 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(fit-content, (2, 1fr));
-  grid-template-rows: repeat(fit-content, (2, 1fr));
+  grid-template-columns: repeat(2, fit-content(484px));
+  grid-template-rows: repeat(2, fit-content(460px));
   grid-template-areas:
     "title link"
     "img paragraph";
@@ -19,17 +19,17 @@
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1023px) {
   .place {
     gap: 48px 28px;
     padding-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: repeat(fit-content, (1, 1fr));
-    grid-template-rows: repeat(fit-content, (4, 1fr));
+    grid-template-columns: repeat(1, fit-content(320px));
+    grid-template-rows: repeat(4, fit-content(400px));
     grid-template-areas:
       "title"
       "link"

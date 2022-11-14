@@ -8,7 +8,7 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;

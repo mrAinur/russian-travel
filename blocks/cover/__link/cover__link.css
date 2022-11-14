@@ -32,21 +32,21 @@
 
 @media screen and (max-width: 1279px) {
   .cover__link {
-    min-width: 1024px;
+    min-width: 1007px;
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1023px) {
   .cover__link {
-    min-width: 768px;
+    min-width: 751px;
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 767px) {
   .cover__link {
-    min-width: 320px;
+    min-width: 303px;
     min-height: 200px;
   }
 }

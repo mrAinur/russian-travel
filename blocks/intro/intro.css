@@ -9,19 +9,20 @@
 @media screen and (max-width: 1279px) {
   .intro {
     padding: 92px 0 0 0;
-    margin: 0 auto;
+    margin: 0 auto 0 48px;
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
     min-height: 429px;
     padding: 88px 0 0 0;
+    margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 767px) {
   .intro {
     max-width: 288px;
     min-height: 754px;

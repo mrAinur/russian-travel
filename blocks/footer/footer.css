@@ -12,19 +12,20 @@
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1023px) {
   .footer {
     max-width: 720px;
     margin: 88px auto 24px auto;
   }
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 767px) {
   .footer {
     max-width: 186px;
     min-height: 310px;
     display: flex;
     flex-direction: column;
     margin: 64px auto 24px auto;
+    padding-right: 102px;
   }
 }
