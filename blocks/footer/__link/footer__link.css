@@ -8,6 +8,7 @@
   color: #ffffff;
   padding-right: 18px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .footer__link:last-of-type {
@@ -15,7 +16,6 @@
 }
 
 .footer__link:hover {
-  transition: 0.3s;
   opacity: 0.8;
 }
 
