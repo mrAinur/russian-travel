@@ -12,21 +12,19 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    max-width: 1007px;
+    max-width: 100%;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    max-width: 751px;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    max-width: 303px;
     min-height: 200px;
   }
 }
